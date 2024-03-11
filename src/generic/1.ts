@@ -9,7 +9,7 @@ function getPromise<T>() {
     });
 }
 
-getPromise<[string, number]>()
+getPromise()
     .then((data) => {
         console.log(data);
     });
