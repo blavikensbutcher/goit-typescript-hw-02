@@ -3,6 +3,7 @@
 */
 
 interface ComponentProps {
+  title: string
 }
 
 class Component<T extends ComponentProps> {
